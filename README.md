@@ -1,11 +1,11 @@
 # Django-BrokerMQTT
 
-# install
+## install
 To install, simply run the command:
 ```
 	./install.sh
 ```
-# configuration
+## configuration
 To database migration and superuser creation use the command:
 ```
   python3 manage.py migrate && python3 manage.py createsuperuser
@@ -44,8 +44,8 @@ To modify the plugin queries look at this link:
 ```
   https://github.com/jacoposartini/SQLite3_HBMQTT_Plugins
 ```
-# run
+## run
 ```
   python3 manage.py --noreload
 ```
-# in case of bugs please contact me.
+## in case of bugs please contact me.
