@@ -41,9 +41,9 @@ To change the settings of the broker edit the dictionary in the file ```DjangoBr
   }
 ```
 To modify the plugin queries look at this link:
-```
-  https://github.com/jacoposartini/SQLite3_HBMQTT_Plugins
-```
+
+https://github.com/jacoposartini/SQLite3_HBMQTT_Plugins
+
 ## run
 ```
   python3 manage.py --noreload
