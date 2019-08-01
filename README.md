@@ -40,9 +40,7 @@ To change the settings of the broker edit the dictionary in the file ```DjangoBr
     }
   }
 ```
-To modify the plugin queries look at this link:
-
-https://github.com/jacoposartini/SQLite3_HBMQTT_Plugins
+To modify the plugin queries look https://github.com/jacoposartini/SQLite3_HBMQTT_Plugins
 
 ## run
 ```
