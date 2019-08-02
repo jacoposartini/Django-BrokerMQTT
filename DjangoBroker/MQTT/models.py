@@ -20,14 +20,9 @@ class AuthMQTT(models.Model):
 
 
 class Topic(models.Model):
-    name = models.CharField(max_length=32)
     topic = models.CharField(max_length=64, unique=True)
     mqtt_user = models.ForeignKey(AuthMQTT,
                                on_delete=models.CASCADE,
                                related_name="user_topics")
     def __str__(self):
-        return self.name
-
-    def save(self, *args, **kwargs):
-        self.topic = f"{self.mqtt_user.user.username}/{self.name}/#"
-        super(Topic, self).save(*args, **kwargs)
+        return self.topic
