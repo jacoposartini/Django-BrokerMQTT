@@ -1,4 +1,4 @@
-Django==2.2.8
+Django==2.2.28
 django-compat==1.0.15
 docopt==0.6.2
 hbmqtt==0.9.5
